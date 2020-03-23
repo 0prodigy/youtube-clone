@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link stylesheet  & font library-->
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script
@@ -13,6 +14,7 @@
   </head>
   <body>
     <header class="header">
+      <!-- navbar -->
       <nav class="navbar">
         <div class="left-nav">
           <a href="#" class="nav-link"><i class="fa fa-bars"></i></a>
@@ -44,9 +46,11 @@
         </div>
       </nav>
     </header>
+    <!-- main container for video and related video -->
     <section class="main">
       <div class="left">
         <div class="container">
+          <!-- Embedded youtube video -->
           <div class="video">
             <iframe
               src="https://www.youtube.com/embed/0Wf9bRXUe8M"
@@ -55,6 +59,7 @@
               allowfullscreen
             ></iframe>
           </div>
+          <!-- video related data  -->
           <div class="meta-data">
             <div class="title">
               <h3>What is Microverse?</h3>
@@ -75,6 +80,7 @@
               </div>
             </div>
           </div>
+          <!-- video description -->
           <div class="discription">
             <div class="thumb-logo"><img src="./images/microverse.jpg" alt="microverse"></div>
             <div class="content">
@@ -82,6 +88,42 @@
               <button class="subscribe-btn">SUBSCRIBE</button>
               <p>Microverse is an online school for remote software developers where you pay nothing until you land a life-changing job, no matter where you live.</p>
               <p><a href="#">SHOW MORE</a></p>
+            </div>
+          </div>
+          <!-- Comments section -->
+          <div class="comment-form">
+            <div class="comment-data">
+              <span>140 Comments</span>
+              <span class="sort"><i class="fas fa-sort-amount-down"></i>&nbsp; SORT BY</span>
+            </div>
+            <div class="comment-input">
+              <a href="" class="user">A</a>
+              <input type="text" name="" id="" placeholder="Add a public comment..">
+            </div>
+          </div>
+          <div class="comment-body">
+          <div class="comment-box">
+            <a href="" class="user">A</a>
+            <div class="user-content">
+              <div class="name">Akash Pathak <span>3 years ago</span></div>
+              <p>Microverse is great plateform to become remote developer.</p>
+              <div class="comment-data">
+                <span><i class="fas fa-thumbs-up"></i> &nbsp; 34</span>
+                <span><i class="fas fa-thumbs-down"></i> &nbsp; 4</span>
+                <span>REPLY</span>
+              </div>
+            </div>
+          </div>
+          <div class="comment-box reply">
+            <a href="" class="user">A</a>
+            <div class="user-content">
+              <div class="name">Akash Pathak <span>3 years ago</span></div>
+              <p>Microverse is great plateform to become remote developer.</p>
+              <div class="comment-data">
+                <span><i class="fas fa-thumbs-up"></i> &nbsp; 34</span>
+                <span><i class="fas fa-thumbs-down"></i> &nbsp; 4</span>
+                <span>REPLY</span>
+              </div>
             </div>
           </div>
         </div>
