@@ -77,3 +77,36 @@ a.login-btn {
   font-family: Arial;
   font-weight: 60;
 }
+
+.main {
+  margin: 4px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 55px;
+}
+
+.view-count-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.viewcount {
+  display: flex;
+}
+
+.meta-data {
+  padding: 3px 0;
+}
+
+.right-meta-data {
+}
+
+.likes-menu {
+  display: flex;
+  color: #d3d3d3;
+}
+
+.likes-menu div {
+  padding: 15px;
+}
