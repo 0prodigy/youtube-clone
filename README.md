@@ -2,7 +2,7 @@
 
 > We made a clone of the most used website for streaming videos to practice embedding images and videos.
 
-![screenshot](./screenshot)
+![screenshot](./screenshot.png)
 
 ## Built With
 
