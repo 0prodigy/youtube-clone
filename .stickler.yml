@@ -4,6 +4,9 @@ linters:
     eslint:
         config: './eslint.config'
     csslint:
+        ignore: 'box-model,box-sizing,ids'
 
-
-
+files:
+    ignore:
+        - 'src/generated/*'
+        - 'webroot/bower_components/*'

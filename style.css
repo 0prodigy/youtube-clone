@@ -275,7 +275,7 @@ form input {
   margin-left: 10px;
 }
 
-.related-content h4 {
+.related-content > h4 {
   font-size: 0.9rem;
   font-weight: 600;
 }
