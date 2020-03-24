@@ -5,16 +5,19 @@ body {
   box-shadow: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
 body {
   background-color: #f9f9f9;
 }
+
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 4px 0px;
+  padding: 4px 0;
   background-color: #fff;
 }
+
 .left-nav,
 .mid-nav,
 .right-nav {
@@ -22,6 +25,7 @@ body {
   align-items: center;
   background: transparent;
 }
+
 .left-nav a,
 .mid-nav a,
 .right-nav a {
@@ -34,26 +38,31 @@ i.fa {
   font-size: 1.4rem;
   color: #fff;
 }
+
 .left-nav img {
   max-width: 100%;
   width: 129px;
 }
+
 .mid-nav {
-  margin: 0px 40px;
+  margin: 0 40px;
 }
+
 .mid-nav form {
   max-width: 100%;
   width: 640px;
   display: flex;
 }
+
 form input#search-bar {
   width: 80%;
-  box-shadow: inset 0px 0px 1px grey;
+  box-shadow: inset 0 0 1px grey;
   border: 1px solid #d3d3d3;
   padding: 6px 4px;
   font-size: 16px;
   font-weight: 500;
 }
+
 .search-btn {
   width: 10%;
   color: grey;
@@ -61,18 +70,20 @@ form input#search-bar {
   border: 1px solid #d3d3d3;
   background: #f8f8f8;
 }
+
 .right-nav ul {
   display: flex;
   list-style: none;
 }
+
 .right-nav li {
-  padding: 0px 6px;
+  padding: 0 6px;
 }
+
 a.login-btn {
   padding: 12px;
   border: 1px solid blue;
   color: blue;
-  font-family: Arial;
   font-weight: 60;
 }
 
@@ -80,14 +91,17 @@ a.login-btn {
   margin: 4px auto;
   display: flex;
 }
+
 .left {
   margin: 3rem;
   width: 50%;
 }
+
 .left .video {
   width: 660px;
   height: 360px;
 }
+
 .video iframe {
   width: 100%;
   height: 100%;
@@ -121,14 +135,17 @@ a.login-btn {
 .likes-menu div {
   padding: 15px;
 }
+
 .discription {
   margin: 2rem 0;
   display: flex;
   border-bottom: 0.5px solid #9e9e9eb8;
 }
+
 .thumb-logo img {
   border-radius: 50%;
 }
+
 .subscribe-btn {
   padding: 10px 15px;
   border: none;
@@ -138,30 +155,33 @@ a.login-btn {
   float: right;
   margin-top: -28px;
 }
+
 .content {
   margin-left: 8px;
   margin-top: 5px;
 }
+
 .content a {
   text-decoration: none;
   font-weight: 600;
   color: #696868;
 }
+
 .discription p {
   margin: 2rem 0;
   font-size: 0.9rem;
 }
-.comment-data span {
-  margin-right: 1rem;
-}
+
 .sort {
   color: #696868;
 }
+
 .comment-input {
   display: flex;
   margin: 2rem 0;
   align-items: center;
 }
+
 .user {
   text-decoration: none;
   background: #c00;
@@ -191,29 +211,36 @@ a.login-btn {
   padding-bottom: 5px;
   font-size: 0.9rem;
 }
+
 .comment-box {
   display: flex;
 }
+
 .name {
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 2rem;
 }
+
 .name span {
   font-weight: 300;
   font-size: 0.8rem;
   margin-left: 1rem;
   color: #606060;
 }
+
 .comment-box p {
   font-size: 1rem;
   color: #494949;
   margin-bottom: 1rem;
 }
+
 .comment-data span {
   color: #696868;
   font-size: 0.9rem;
+  margin-right: 1rem;
 }
+
 .reply {
   margin-left: 2rem;
   margin-top: 1rem;
