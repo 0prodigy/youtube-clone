@@ -1,8 +1,8 @@
 body {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -10,32 +10,32 @@ body {
 }
 
 .navbar {
+  align-items: center;
+  background-color: #fff;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   padding: 4px 0;
-  background-color: #fff;
 }
 
 .left-nav,
 .mid-nav,
 .right-nav {
-  display: flex;
   align-items: center;
   background: transparent;
+  display: flex;
 }
 
 .left-nav a,
 .mid-nav a,
 .right-nav a {
-  text-decoration: none;
   color: #606060;
   padding: 2px 4px;
+  text-decoration: none;
 }
 
 .fa, .fas {
-  font-size: 1.4rem;
   color: #fff;
+  font-size: 1.4rem;
 }
 
 .left-nav img {
@@ -48,27 +48,27 @@ body {
 }
 
 .mid-nav form {
+  display: flex;
   max-width: 100%;
   width: 640px;
-  display: flex;
 }
 
 form input {
-  width: 80%;
-  box-shadow: inset 0 0 1px grey;
   border: 1px solid #d3d3d3;
-  padding: 6px 4px;
+  box-shadow: inset 0 0 1px grey;
+  box-sizing: border-box;
   font-size: 16px;
   font-weight: 500;
-  box-sizing: border-box;
+  padding: 6px 4px;
+  width: 80%;
 }
 
 .search-btn {
-  width: 10%;
+  background: #f8f8f8;
+  border: 1px solid #d3d3d3;
   color: grey;
   font-weight: 200;
-  border: 1px solid #d3d3d3;
-  background: #f8f8f8;
+  width: 10%;
 }
 
 .right-nav ul {
@@ -81,15 +81,15 @@ form input {
 }
 
 .login-btn {
-  padding: 12px;
   border: 1px solid blue;
   color: blue;
   font-weight: 600;
+  padding: 12px;
 }
 
 .main {
-  margin: 4px auto;
   display: flex;
+  margin: 4px auto;
 }
 
 .left {
@@ -98,20 +98,20 @@ form input {
 }
 
 .left .video {
-  width: 660px;
   height: 360px;
+  width: 660px;
 }
 
 .video iframe {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .data-container {
+  border-bottom: 1px solid #a1a1a1;
   display: flex;
   justify-content: space-between;
   padding: 10px 0 0;
-  border-bottom: 1px solid #a1a1a1;
 }
 
 .viewcount {
@@ -128,8 +128,8 @@ form input {
 }
 
 .likes-menu {
-  display: flex;
   color: #696868;
+  display: flex;
 }
 
 .likes-menu div {
@@ -137,9 +137,9 @@ form input {
 }
 
 .discription {
-  margin: 2rem 0;
-  display: flex;
   border-bottom: 0.5px solid #9e9e9eb8;
+  display: flex;
+  margin: 2rem 0;
 }
 
 .thumb-logo img {
@@ -147,13 +147,13 @@ form input {
 }
 
 .subscribe-btn {
-  padding: 10px 15px;
-  border: none;
   background: #c00;
-  font-weight: 700;
+  border: none;
   color: #fff;
   float: right;
+  font-weight: 700;
   margin-top: -28px;
+  padding: 10px 15px;
 }
 
 .content {
@@ -162,14 +162,14 @@ form input {
 }
 
 .content a {
-  text-decoration: none;
-  font-weight: 600;
   color: #696868;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .discription p {
-  margin: 2rem 0;
   font-size: 0.9rem;
+  margin: 2rem 0;
 }
 
 .sort {
@@ -177,26 +177,26 @@ form input {
 }
 
 .comment-input {
+  align-items: center;
   display: flex;
   margin: 2rem 0;
-  align-items: center;
 }
 
 .user {
-  text-decoration: none;
-  background: #c00;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  display: flex;
-  font-size: 1rem;
   align-items: center;
+  background: #c00;
   border-radius: 50%;
   color: white;
-  text-align: center;
+  display: flex;
+  font-size: 1rem;
   font-weight: 500;
-  margin-right: 8px;
+  height: 40px;
+  justify-content: center;
   margin-bottom: 1px;
+  margin-right: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
 }
 
 .user-2 {
@@ -204,12 +204,12 @@ form input {
 }
 
 .comment-input input {
+  background: transparent;
   border: none;
   border-bottom: 0.5px solid #9e9e9eb8;
-  width: 70%;
-  background: transparent;
-  padding-bottom: 5px;
   font-size: 0.9rem;
+  padding-bottom: 5px;
+  width: 70%;
 }
 
 .comment-box {
@@ -223,15 +223,15 @@ form input {
 }
 
 .name span {
-  font-weight: 300;
-  font-size: 0.8rem;
-  margin-left: 1rem;
   color: #606060;
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-left: 1rem;
 }
 
 .comment-box p {
-  font-size: 1rem;
   color: #494949;
+  font-size: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -247,14 +247,14 @@ form input {
 }
 
 .right {
-  width: 40%;
   margin-right: 10%;
   margin-top: 40px;
+  width: 40%;
 }
 
 .related-video iframe {
-  width: 200px;
   height: 100px;
+  width: 200px;
 }
 
 .related-video img {
@@ -276,13 +276,13 @@ form input {
 }
 
 .related-content h4 {
-  font-weight: 600;
   font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .related-content p {
-  font-size: 0.7rem;
   color: #636363;
+  font-size: 0.7rem;
 }
 
 .related-paragraph {
@@ -290,6 +290,6 @@ form input {
 }
 
 hr {
-  color: #e0e0e0;
   border: 0.8px solid;
+  color: #e0e0e0;
 }
