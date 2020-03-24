@@ -2,7 +2,7 @@
 
 > We made a clone of the most used website for streaming videos to practice embedding images and videos.
 
-![screenshot](./screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
@@ -31,16 +31,17 @@ Just fork it and you are good to go.
 
 👤 **Akash Pathak**
 
-- Github: [@githubhandle](https://github.com/0prodigy)
-- Twitter: [@twitterhandle](https://twitter.com/pathakprodigy)
-- Linkedin: [linkedin](https://www.linkedin.com/in/akash-pathak-0796a7165)
+- Github: [@0prodigy](https://github.com/0prodigy)
+- Twitter: [@pathakprodigy](https://twitter.com/pathakprodigy)
+- Linkedin: [Akash Pathak](https://www.linkedin.com/in/akash-pathak-0796a7165)
 - Email: (pathakvikash9211@gmail.com)
 
 👤 **Expedito Andrade**
 
-- Github: [@githubhandle](https://github.com/expjazz)
-- Twitter: [@twitterhandle](https://twitter.com/expeditoandrade13)
-- Linkedin: [linkedin](https://www.linkedin.com/in/expedito-andrade-3645151a4/)
+- Github: [@githubexpjazz](https://github.com/expjazz)
+- Twitter: [@expjazz](https://twitter.com/expeditoandrade13)
+- Linkedin: [Expedito Andrade](https://www.linkedin.com/in/expedito-andrade-3645151a4/)
+- Email: (expeditojazz@gmail.com)
 
 ## 🤝 Contributing
 
