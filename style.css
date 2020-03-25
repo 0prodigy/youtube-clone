@@ -1,9 +1,9 @@
 body {
+  background-color: #f9f9f9;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
 }
 
 .navbar {
@@ -73,23 +73,23 @@ form input {
 }
 
 .right-nav .login-btn {
+  align-items: center;
   border: 1px solid #0066cd;
   border-radius: 2px;
   color: #0066cd;
+  display: flex;
   font-size: 0.8rem;
   font-weight: 600;
   padding: 10px 16px;
-  display: flex;
-  align-items: center;
 }
 
 .right-nav .login-btn .fa-user {
-  border-radius: 50%;
   background: #0066cded;
+  border-radius: 50%;
   color: #fff;
   font-size: 0.8rem;
-  padding: 8px;
   margin-right: 5px;
+  padding: 8px;
 }
 
 .main {
@@ -165,6 +165,7 @@ form input {
   margin-left: 8px;
   margin-top: -5px;
 }
+
 .content .content-title {
   font-size: 0.9rem;
 }
@@ -177,8 +178,8 @@ form input {
 
 .discription p {
   color: #424040;
-  font-weight: 600;
   font-size: 0.8rem;
+  font-weight: 600;
   margin: 2rem 0;
 }
 
