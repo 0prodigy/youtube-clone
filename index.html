@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link stylesheet  & font library-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./images/download.jpeg" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+      defer
+    ></script>
+    <title>Youtube</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="left-nav">
+        <a href="#" class="nav-link"><i class="fa fa-bars"></i></a>
+        <a href="#" class="nav-link"
+          ><img src="./images/logo.png" alt="#" class="logo"
+        /></a>
+      </div>
+      <div class="mid-nav">
+        <form>
+          <input type="text" id="search-bar" placeholder="Search" />
+          <button type="submit" class="search-btn">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="right-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-video"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-th"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </li>
+        </ul>
+        <a href="#" class="login-btn"
+          ><i class="fa fa-user"></i><span>SIGN IN</span>
+        </a>
+      </div>
+    </nav>
+    <!-- main container for video and related video -->
+    <main class="main">
+      <section class="left">
+        <div class="container">
+          <!-- Embedded youtube video -->
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/0Wf9bRXUe8M"></iframe>
+          </div>
+          <!-- video related data  -->
+          <div class="meta-data">
+            <div class="title">
+              <h3>What is Microverse?</h3>
+            </div>
+            <div class="data-container">
+              <div class="viewcount">
+                <span>191 views</span>
+                <span>• Feb 20, 2020</span>
+              </div>
+              <div class="right-meta-data">
+                <div class="likes-menu">
+                  <div class="like">
+                    <i class="fas fa-thumbs-up"></i>&nbsp; 9
+                  </div>
+                  <div class="dislike">
+                    <i class="fas fa-thumbs-down"></i>&nbsp; 0
+                  </div>
+                  <div class="share">
+                    <i class="fas fa-share"></i>&nbsp; SHARE
+                  </div>
+                  <div class="save"><i class="fas fa-list"></i>&nbsp; SAVE</div>
+                  <div class="other"><i class="fas fa-ellipsis-h"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- video description -->
+          <div class="discription">
+            <div class="thumb-logo">
+              <img src="./images/microverse.jpg" alt="microverse" />
+            </div>
+            <div class="content">
+              <h4 class="content-title">Microverse</h4>
+              <button class="subscribe-btn">SUBSCRIBE</button>
+              <p>
+                Microverse is an online school for remote software developers
+                where you pay nothing until you land a life-changing job, no
+                matter where you live.
+              </p>
+              <p><a href="#">SHOW MORE</a></p>
+            </div>
+          </div>
+          <!-- Comments section -->
+          <div class="comment-form">
+            <div class="comment-data">
+              <span>2 Comments</span>
+              <span class="sort"
+                ><i class="fas fa-sort-amount-down"></i>&nbsp; SORT BY</span
+              >
+            </div>
+            <div class="comment-input">
+              <a href="#" class="user">A</a>
+              <input type="text" placeholder="Add a public comment.." />
+            </div>
+          </div>
+          <div class="comment-body">
+            <div class="comment-box">
+              <a href="#" class="user">A</a>
+              <div class="user-content">
+                <div class="name">Akash Pathak <span>3 years ago</span></div>
+                <p>Microverse is great plateform to become remote developer.</p>
+                <div class="comment-data">
+                  <span><i class="fas fa-thumbs-up"></i> &nbsp; 34</span>
+                  <span><i class="fas fa-thumbs-down"></i> &nbsp; 4</span>
+                  <span>REPLY</span>
+                </div>
+              </div>
+            </div>
+            <!-- Comment Reply -->
+            <div class="comment-box reply">
+              <a href="#" class="user user-2">E</a>
+              <div class="user-content">
+                <div class="name">
+                  Expedito Andrade <span>3 years ago</span>
+                </div>
+                <p>
+                  Microverse has given me the tools I needed to be a sucesfull
+                  web developer.
+                </p>
+                <div class="comment-data">
+                  <span><i class="fas fa-thumbs-up"></i> &nbsp; 4</span>
+                  <span><i class="fas fa-thumbs-down"></i> &nbsp; 1</span>
+                  <span>REPLY</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Recommended video -->
+      <section class="right">
+        <div class="container-right">
+          <div class="up-next">
+            <span>Up Next</span>
+            <span class="autoplay"
+              >Autoplay <i class="fas fa-toggle-on"></i
+            ></span>
+          </div>
+          <div class="related-video">
+            <img
+              src="https://i.ytimg.com/vi/UCbVh7-zyZ8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAg6IJlJ09HxvcaEcg8HJ43wEXyjg"
+              alt="#"
+            />
+            <div class="related-content">
+              <h4 class="related-title">
+                The Remote Job Search: My Microverse Journey with Paul Rail
+              </h4>
+              <p class="related-paragraph">Microverse</p>
+              <p>Recommended for you</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <!-- Related videos -->
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/HdHvmhHKLqY/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDiTC6DZTscYaBcDhpjzsQK0qYS1Q"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">
+              The Remote Developer Journey with Mario de La Ossa from GitLab /
+              Microverse Lunch & Learn.
+            </h4>
+            <p class="related-paragraph">Microverse</p>
+            <p>1275 views</p>
+          </div>
+        </div>
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/pQN-pnXPaVg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDSHd4tgm81VMHWtFRnQJDAe-K3Bg"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">
+              Learn HTML5 and CSS3 From Scratch - Full Course
+            </h4>
+            <p class="related-paragraph">freeCodeCamp.org</p>
+            <p>740,257 views</p>
+          </div>
+        </div>
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/ny1KKEkz-nE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBgrXVvxWZCSf_utT-srJo3S2fSVQ"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">
+              From Coding Student to Freelance Hero with Muyiwa Akin-Ogundeji /
+              Microverse Lunch & Learn
+            </h4>
+            <p class="related-paragraph">Microverse</p>
+            <p>1.045 views</p>
+          </div>
+        </div>
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/h26xAuIFfvg/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCV_mEv8fVyPZWml8jakmzYY0WI5A"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">
+              Frontend vs. Backend - Which Is Better?
+            </h4>
+            <p class="related-paragraph">Clément Mihailescu</p>
+            <p>1.148 views</p>
+          </div>
+        </div>
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/OrxmtDw4pVI/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLClTvpeupCJBcoNyxqLYYbGX8OrRA"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">Vue.js: The Documentary</h4>
+            <p class="related-paragraph">Honeypot</p>
+            <p>387mi views</p>
+          </div>
+        </div>
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/7YZ5DwlLSt8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBXLfZB-9MOU0nC_1c4grDaOqCLYg"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">
+              7 Secret Patterns Vue Consultants Don’t Want You to Know
+            </h4>
+            <p class="related-paragraph">Coding Tech</p>
+            <p>105k views</p>
+          </div>
+        </div>
+        <div class="related-video">
+          <img
+            src="https://i.ytimg.com/vi/WLpLYhnGqPA/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA_KNFeM9ZKMz7P8bS9c1b3iaRv-A"
+            alt="#"
+          />
+          <div class="related-content">
+            <h4 class="related-title">
+              Design Principles of Vue 3.0 by Evan You
+            </h4>
+            <p class="related-paragraph">VueConf Toronto</p>
+            <p>75k views</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
