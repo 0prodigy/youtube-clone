@@ -72,11 +72,24 @@ form input {
   padding: 0 6px;
 }
 
-.login-btn {
-  border: 1px solid blue;
-  color: blue;
+.right-nav .login-btn {
+  border: 1px solid #0066cd;
+  border-radius: 2px;
+  color: #0066cd;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 12px;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.right-nav .login-btn .fa-user {
+  border-radius: 50%;
+  background: #0066cded;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 8px;
+  margin-right: 5px;
 }
 
 .main {
@@ -144,13 +157,16 @@ form input {
   color: #fff;
   float: right;
   font-weight: 700;
-  margin-top: -28px;
+  margin-top: -45px;
   padding: 10px 15px;
 }
 
 .content {
   margin-left: 8px;
-  margin-top: 5px;
+  margin-top: -5px;
+}
+.content .content-title {
+  font-size: 0.9rem;
 }
 
 .content a {
@@ -160,7 +176,9 @@ form input {
 }
 
 .discription p {
-  font-size: 0.9rem;
+  color: #424040;
+  font-weight: 600;
+  font-size: 0.8rem;
   margin: 2rem 0;
 }
 
